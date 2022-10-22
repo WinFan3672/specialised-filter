@@ -9,7 +9,7 @@ It opens a Python file in the current directory and does the following:
 - Creates a new Python file based on the changed data
 ## What the filter is for
 
-If you put `f` before the starting speech mark in `print()`, then you can use formatting or `{}`, The task of converting your code to work with the `{}` can be a dull and tedious, with you having to place hundreds of `f` symbols in front of `print()` statements. You could use a find-and-replace, but that would cause ALL `print()` statements to have the `f` parameter, which is unnecessary and ugly. This tool uses logic to determine if it will replace the `print()` statements in your code with an `f` parameter.
+If you put `f` before the starting speech mark in `print()`, then you can use formatting or `{}` as a way of adding variables to a print statement. The task of converting your code to work with the `{}` can be a dull and tedious one, with you having to place hundreds of `f` symbols in front of `print()` statements. You could use a find-and-replace, but that would cause ALL `print()` statements to have the `f` parameter, which is unnecessary and ugly. This tool uses logic to determine if it will replace the `print()` statements in your code with an `f` parameter.
 
 It is incredibly specialised but very helpful.
 
@@ -27,7 +27,7 @@ This tool will NOT be getting support. I will ignore issues and will not be main
 ## Usage
 - Enter the path to a Python file
 - The tool will run and exit.
-- In the same directory as the Python file, a new file will have been added. If the main Python file is called `file.py`, the new one is called `file-filtered.py`. Also, `file.py.bak` is created as a backup for the original file.
+- In the same directory as the Python file, a new file will have been added. If the main Python file is called `file.py`, the new one is called `file_filtered.py`. Also, `file.py.bak` is created, which is a backup of the original file.
 
 # Credits
 - Developed solely by `WinFan3672` under the `MIT License`
